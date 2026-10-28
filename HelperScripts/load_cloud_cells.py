@@ -17,8 +17,8 @@ from plotly.subplots import make_subplots
 from scipy.spatial import ConvexHull
  
 NODE_NAMES    = ['A', 'B', 'C', 'D']
-GROUP_COLOURS = {'Gust': '#1f77b4', 'Side': '#2ca02c', 'Gyro': '#d62728'}   # keys MUST equal the first word of the case names
-GROUP_LABELS  = {'Gust': 'Gust load cases', 'Side': 'Side load cases', 'Gyro': 'Gyro load cases'}   # legend text (free to edit)
+GROUP_COLOURS = {'Gust': '#1f77b4', 'Side': '#2ca02c', 'Gyro': '#d62728', 'Manoeuvre': '#9467bd' }   # keys MUST equal the first word of the case names
+GROUP_LABELS  = {'Gust': 'Gust load cases', 'Side': 'Side load cases', 'Gyro': 'Gyro load cases', 'Manoeuvre': 'Manoeuvre load cases'}   # legend text (free to edit)
 _WARNED = set()
  
  
